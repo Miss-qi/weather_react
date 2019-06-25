@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Weather from "./Weather";
+import { view as Weather} from "./weather/";
+import CitySelector from "./weather/CitySelector";
 
 function App() {
   return (
     <div className="App">
       <Weather/>
+      <CitySelector/>
     </div>
   );
 }
